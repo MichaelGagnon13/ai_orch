@@ -1,0 +1,61 @@
+{
+  "cursor": "EPIC-1/STORY-1/TASK-1",
+  "epics": [
+    {
+      "id": "EPIC-1",
+      "title": "Service API Demo",
+      "summary": "Créer et tester une API simple.",
+      "stories": [
+        {
+          "id": "STORY-1",
+          "summary": "Endpoint /sum avec tests.",
+          "tasks": [
+            {
+              "id": "TASK-1",
+              "title": "Implémenter /sum",
+              "deps": [],
+              "success": {
+                "cmd": "pytest -q -k test_sum_ok",
+                "expect_exit": 0
+              },
+              "status": "done"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "TASK-2": {
+    "id": "TASK-2",
+    "title": "Implémenter /health (GET) -> {'status':'ok'} + test",
+    "criteria": "pytest -q -k test_health_ok exit 0",
+    "status": "done",
+    "created_at": 1761322676,
+    "done_at": 1761322803
+  },
+  "TASK-3": {
+    "id": "TASK-3",
+    "title": "Valider /sum: numbers=list[num]; sinon 400 + test",
+    "criteria": "pytest -q -k 'test_sum_ok and test_sum_bad_payload' exit 0",
+    "status": "done",
+    "created_at": 1761323247,
+    "done_at": 1761323406
+  },
+  "TASK-4": {
+    "id": "TASK-4",
+    "title": "Endpoint GET /budget retourne {'profile': active_profile} + test",
+    "criteria": "pytest -q -k test_budget_ok exit 0",
+    "status": "done",
+    "created_at": 1761323527,
+    "done_at": 1761323707
+  },
+  "TASK-5": {
+    "id": "TASK-5",
+    "title": "Boucle multi-tâches minimale (itère, teste, marque done/blocked)",
+    "criteria": "runner liste et traite 1 tâche à la fois",
+    "status": "done",
+    "created_at": 1761323791,
+    "blocked_at": 1761323868,
+    "done_at": 1761324028
+  }
+}

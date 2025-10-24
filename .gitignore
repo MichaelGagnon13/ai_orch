@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.pytest_cache/
+
+# Env et secrets
+.env
+state/plan.json.bak.*
+state/*.bak.*
+
+# Logs et RAG
+rag/logs/
+*.runlog
+
+# Node/Studio
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
