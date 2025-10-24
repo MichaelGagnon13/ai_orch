@@ -1,3 +1,9 @@
+# === studio: begin ===
+import os, agentscope
+agentscope.init(project="ai_orch", name="orchestrate",
+               studio_url=os.getenv("AS_STUDIO_URL","http://127.0.0.1:3000"))
+# === studio: end ===
+
 # === logger: begin ===
 try:
     from src.logger import log_task
@@ -88,3 +94,8 @@ if __name__ == "__main__":
     else:
         print("[runner] NEXT=NONE")
 # === plan runner: end ===
+
+if __name__ == '__main__':
+    print('[orchestrate] dispatch runner once')
+    from src.runner import main as run_once
+    run_once()

@@ -22,3 +22,7 @@ def budget():
         return jsonify({'profile': b['meta']['active_profile']}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+@app.route('/version', methods=['GET'])
+def version():
+    return jsonify({'version': '0.1.0'}), 200

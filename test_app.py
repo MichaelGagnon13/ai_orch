@@ -27,3 +27,15 @@ def test_budget_ok(client):
     r = client.get('/budget')
     assert r.status_code == 200
     assert r.get_json() == {'profile': 'large'}
+
+
+def test_sum_float(client):
+    r = client.post('/sum', json={'numbers':[1,2,3.5]})
+    assert r.status_code == 200
+    assert r.get_json() == {'result': 6.5}
+
+
+def test_version_ok(client):
+    r = client.get('/version')
+    assert r.status_code == 200
+    assert r.get_json() == {'version': '0.1.0'}

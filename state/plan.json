@@ -18,7 +18,7 @@
                 "cmd": "pytest -q -k test_sum_ok",
                 "expect_exit": 0
               },
-              "status": "done"
+              "status": "review_needed"
             }
           ]
         }
@@ -57,5 +57,22 @@
     "created_at": 1761323791,
     "blocked_at": 1761323868,
     "done_at": 1761324028
+  },
+  "TASK-6": {
+    "id": "TASK-6",
+    "title": "Refactor /sum: accepte floats; tests",
+    "criteria": "pytest -q -k 'test_sum_ok and test_sum_bad_payload' exit 0",
+    "status": "done",
+    "created_at": 1761332330,
+    "done_at": 1761332462
+  },
+  "TASK-7": {
+    "id": "TASK-7",
+    "title": "Ajouter endpoint GET /version -> {'version':'0.1.0'} + test",
+    "criteria": "pytest -q -k test_version_ok exit 0",
+    "status": "done",
+    "created_at": 1761332795,
+    "blocked_at": 1761333401,
+    "done_at": 1761333592
   }
 }
