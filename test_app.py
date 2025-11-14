@@ -64,3 +64,10 @@ def test_median_ok_even(client):
 def test_median_bad_payload(client):
     resp = client.post('/median', json={'numbers':'oops'})
     assert resp.status_code == 400
+
+
+def test_stats_ok(client):
+    r = client.get('/stats')
+    assert r.status_code == 200
+    j = r.get_json()
+    assert "tasks_logged" in j and isinstance(j["tasks_logged"], int)

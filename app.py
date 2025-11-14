@@ -55,3 +55,14 @@ def median_endpoint():
     else:
         result = (arr[mid-1] + arr[mid]) / 2
     return jsonify({'result': result}), 200
+
+import json, pathlib, time
+
+@app.route('/stats', methods=['GET'])
+def stats():
+    logs = pathlib.Path("rag/logs/tasks.jsonl")
+    n = 0
+    if logs.exists():
+        with logs.open() as f:
+            for _ in f: n += 1
+    return jsonify({"ts": int(time.time()), "tasks_logged": n}), 200
