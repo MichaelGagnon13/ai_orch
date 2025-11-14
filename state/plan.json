@@ -92,5 +92,13 @@
     "created_at": 1763157766,
     "blocked_at": 1763157787,
     "done_at": 1763157983
+  },
+  "TASK-10": {
+    "id": "TASK-10",
+    "title": "Durcir les erreurs JSON (format {'error': msg}) sur toutes les routes POST",
+    "criteria": "pytest -q exit 0",
+    "status": "done",
+    "created_at": 1763161171,
+    "done_at": 1763161205
   }
 }
