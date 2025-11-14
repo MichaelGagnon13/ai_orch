@@ -18,7 +18,7 @@
                 "cmd": "pytest -q -k test_sum_ok",
                 "expect_exit": 0
               },
-              "status": "review_needed"
+              "status": "done"
             }
           ]
         }
@@ -74,5 +74,23 @@
     "created_at": 1761332795,
     "blocked_at": 1761333401,
     "done_at": 1761333592
+  },
+  "TASK-8": {
+    "id": "TASK-8",
+    "title": "Ajouter /mean (POST {'numbers': [...]}) + test",
+    "criteria": "pytest -q -k test_mean_ok exit 0",
+    "status": "done",
+    "created_at": 1763157181,
+    "blocked_at": 1763157197,
+    "done_at": 1763157495
+  },
+  "TASK-9": {
+    "id": "TASK-9",
+    "title": "Ajouter /median (POST {'numbers': [...]}) + tests",
+    "criteria": "pytest -q -k test_median_ok exit 0",
+    "status": "done",
+    "created_at": 1763157766,
+    "blocked_at": 1763157787,
+    "done_at": 1763157983
   }
 }

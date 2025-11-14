@@ -26,3 +26,32 @@ def budget():
 @app.route('/version', methods=['GET'])
 def version():
     return jsonify({'version': '0.1.0'}), 200
+
+@app.route('/mean', methods=['POST'])
+def mean_endpoint():
+    data = request.get_json(silent=True) or {}
+    nums = data.get('numbers', [])
+    if not isinstance(nums, list) or not nums or not all(isinstance(x, (int, float)) for x in nums):
+        return jsonify({'error': 'numbers must be a non-empty list of numbers'}), 400
+    return jsonify({'result': sum(nums)/len(nums)}), 200
+
+
+@app.route('/median', methods=['POST'])
+def median_endpoint():
+    data = request.get_json() or {}
+    nums = data.get('numbers')
+    if not isinstance(nums, list):
+        return jsonify({'error': 'numbers must be a list'}), 400
+    try:
+        arr = sorted(float(x) for x in nums)
+    except Exception:
+        return jsonify({'error': 'invalid numbers'}), 400
+    n = len(arr)
+    if n == 0:
+        return jsonify({'error': 'numbers empty'}), 400
+    mid = n // 2
+    if n % 2:
+        result = arr[mid]
+    else:
+        result = (arr[mid-1] + arr[mid]) / 2
+    return jsonify({'result': result}), 200
