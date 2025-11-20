@@ -1,15 +1,20 @@
 #!/usr/bin/env bash
+# scripts/run_orch.sh
 set -euo pipefail
-PIDF="scripts/pids/orch.pid"
-
-echo "[INFO] Démarrage orchestrateur"
-[ -d .venv ] || { echo "[ERR] .venv manquant"; exit 1; }
-source .venv/bin/activate
-[ -f .env ] && set -a && source .env && set +a
-
-export AS_STUDIO_URL=${AS_STUDIO_URL:-http://127.0.0.1:3000}
-export AS_STUDIO_SAFE_MODE=${AS_STUDIO_SAFE_MODE:-1}
-
-nohup python -m src.orchestrate > logs/orch.out 2>&1 &
-echo $! > "$PIDF"
-echo "[OK] Orchestrateur PID=$(cat "$PIDF") • Studio=$AS_STUDIO_URL SAFE_MODE=$AS_STUDIO_SAFE_MODE"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR/.."
+echo "[INFO] Répertoire projet : $(pwd)"
+if [ ! -d ".venv" ]; then
+  echo "[ERR] Environnement virtuel .venv introuvable dans $(pwd)"
+  exit 1
+fi
+if [ ! -f ".env" ]; then
+  echo "[ERR] Fichier .env introuvable dans $(pwd)"
+  exit 1
+fi
+echo "[INFO] Activation de .venv..."
+source ".venv/bin/activate"
+echo "[INFO] Chargement des variables depuis .env..."
+export $(grep -v '^#' .env | xargs)
+echo "[INFO] Lancement de l'orchestrateur (python -m src.orchestrate)..."
+exec python -m src.orchestrate
