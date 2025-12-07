@@ -1,4 +1,6 @@
-import json, pathlib, time
+import json
+import pathlib
+
 
 def load_budgets(path="state/budgets.json"):
     p = pathlib.Path(path)
@@ -11,8 +13,9 @@ def load_budgets(path="state/budgets.json"):
         "per_step": cfg.get("per_step", {}),
         "per_task": cfg.get("per_task", {}),
         "cost_limits": cfg.get("cost_limits", {}),
-        "policy": data.get("policy", {})
+        "policy": data.get("policy", {}),
     }
+
 
 if __name__ == "__main__":
     b = load_budgets()

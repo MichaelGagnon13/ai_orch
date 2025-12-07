@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# TaskBot
+.taskbot_context.txt
+
+# API Keys - IMPORTANT !
+.env
+*.key
+secrets/
+config/local.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AgentScope
+.agentscope/
+agentscope_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

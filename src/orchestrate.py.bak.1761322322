@@ -1,0 +1,42 @@
+import os, json, asyncio
+from agentscope.agent import ReActAgent
+from agentscope.model import OpenAIChatModel, AnthropicChatModel
+from agentscope.formatter import OpenAIChatFormatter, AnthropicChatFormatter
+from agentscope.message import Msg
+
+PLAN = os.path.join(os.path.dirname(__file__), "..", "state", "plan.json")
+
+def j(p): return json.load(open(p, encoding="utf-8"))
+def save(p,d): json.dump(d, open(p,"w", encoding="utf-8"), indent=2, ensure_ascii=False)
+
+planner = ReActAgent(
+    name="planner",
+    sys_prompt="Architecte : micro-tâches, vérif dépendances, corrections minimales. Réponds en 10 lignes max.",
+    model=OpenAIChatModel(model_name="gpt-5", api_key=os.environ["OPENAI_API_KEY"], stream=False),
+    formatter=OpenAIChatFormatter(),
+)
+
+coder = ReActAgent(
+    name="coder",
+    sys_prompt="Codeur : un micro-lot, patch diff + tests, sans upgrade de versions. Réponse ≤ 50 lignes.",
+    model=AnthropicChatModel(model_name=os.environ["ANTHROPIC_MODEL_ID"], api_key=os.environ["ANTHROPIC_API_KEY"], stream=False),
+    formatter=AnthropicChatFormatter(),
+)
+
+async def main():
+    plan = j(PLAN)
+    t = plan["epics"][0]["stories"][0]["tasks"][0]
+    spec = f"# Micro-tâche : {t['title']}\nSuccès : {t['success']}\nCrée code + tests minimal."
+
+    code_msg = await coder(Msg(name="coder", role="user", content=spec))
+    review_msg = await planner(Msg(name="planner", role="user",
+        content=f"Analyse et réponds strictement :\nOK\nou\nCORRIGE : <plan minimal>\n---\n{code_msg.content}"))
+
+    print("=== CLAUDE ===\n", str(code_msg.content)[:800])
+    print("\n=== GPT-5 REVIEW ===\n", str(review_msg.content)[:800])
+
+    t["status"] = "done" if "OK" in str(review_msg.content).upper() else "review_needed"
+    save(PLAN, plan)
+
+if __name__ == "__main__":
+    asyncio.run(main())

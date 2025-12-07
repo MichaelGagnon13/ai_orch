@@ -1,0 +1,96 @@
+# === studio: begin ===
+import os, agentscope
+agentscope.init(project="ai_orch", name="orchestrate",
+               studio_url=os.getenv("AS_STUDIO_URL","http://127.0.0.1:3000"))
+# === studio: end ===
+
+# === logger: begin ===
+try:
+    from src.logger import log_task
+    def _log_status(task_id:str, status:str, **extra):
+        log_task(event="status", task_id=task_id, status=status, extra=extra or {})
+except Exception as e:
+    print("[logger] load failed:", e)
+    def _log_status(task_id:str, status:str, **extra):
+        pass
+# === logger: end ===
+
+# === budgets: begin ===
+try:
+    from src.budgets import load_budgets
+    _B = load_budgets()
+    B_ACTIVE   = _B["meta"]["active_profile"]
+    B_PER_STEP = _B["per_step"]
+    B_PER_TASK = _B["per_task"]
+    B_POLICY   = _B["policy"]
+    MAX_INPUT_TOKENS  = B_PER_STEP.get("max_input_tokens")
+    MAX_OUTPUT_TOKENS = B_PER_STEP.get("max_output_tokens")
+    print(f"[budget] profile={B_ACTIVE} per_step={B_PER_STEP}")
+except Exception as e:
+    print("[budget] load failed:", e)
+    B_ACTIVE="small"; B_PER_STEP={}; B_PER_TASK={}; B_POLICY={}
+    MAX_INPUT_TOKENS=None; MAX_OUTPUT_TOKENS=None
+# === budgets: end ===
+
+import os, json, asyncio
+from agentscope.agent import ReActAgent
+from agentscope.model import OpenAIChatModel, AnthropicChatModel
+from agentscope.formatter import OpenAIChatFormatter, AnthropicChatFormatter
+from agentscope.message import Msg
+
+PLAN = os.path.join(os.path.dirname(__file__), "..", "state", "plan.json")
+
+def j(p): return json.load(open(p, encoding="utf-8"))
+def save(p,d): json.dump(d, open(p,"w", encoding="utf-8"), indent=2, ensure_ascii=False)
+
+planner = ReActAgent(
+    name="planner",
+    sys_prompt="Architecte : micro-tâches, vérif dépendances, corrections minimales. Réponds en 10 lignes max.",
+    model=OpenAIChatModel(model_name="gpt-5", api_key=os.environ["OPENAI_API_KEY"], stream=False),
+    formatter=OpenAIChatFormatter(),
+)
+
+coder = ReActAgent(
+    name="coder",
+    sys_prompt="Codeur : un micro-lot, patch diff + tests, sans upgrade de versions. Réponse ≤ 50 lignes.",
+    model=AnthropicChatModel(model_name=os.environ["ANTHROPIC_MODEL_ID"], api_key=os.environ["ANTHROPIC_API_KEY"], stream=False),
+    formatter=AnthropicChatFormatter(),
+)
+
+async def main():
+    plan = j(PLAN)
+    t = plan["epics"][0]["stories"][0]["tasks"][0]
+    spec = f"# Micro-tâche : {t['title']}\nSuccès : {t['success']}\nCrée code + tests minimal."
+
+    code_msg = await coder(Msg(name="coder", role="user", content=spec))
+    review_msg = await planner(Msg(name="planner", role="user",
+        content=f"Analyse et réponds strictement :\nOK\nou\nCORRIGE : <plan minimal>\n---\n{code_msg.content}"))
+
+    print("=== CLAUDE ===\n", str(code_msg.content)[:800])
+    print("\n=== GPT-5 REVIEW ===\n", str(review_msg.content)[:800])
+
+    t["status"] = "done" if "OK" in str(review_msg.content).upper() else "review_needed"
+    save(PLAN, plan)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
+
+# === plan runner: begin ===
+def _next_task_id():
+    try:
+        from src.plan import load_plan, next_open_task
+        plan = load_plan()
+        t = next_open_task(plan)
+        return t["id"] if t else None
+    except Exception as e:
+        print("[plan] load failed:", e)
+        return None
+
+if __name__ == "__main__":
+    tid = _next_task_id()
+    if tid:
+        print(f"[runner] NEXT={tid}")
+    else:
+        print("[runner] NEXT=NONE")
+# === plan runner: end ===

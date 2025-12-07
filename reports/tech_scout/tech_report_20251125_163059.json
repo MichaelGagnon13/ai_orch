@@ -1,0 +1,404 @@
+{
+  "date": "2025-11-25T16:30:59.769555",
+  "summary": "Langages tendance: Python (10), JavaScript (5), TypeScript (4). Topics populaires: developer-tools, image-to-video, text-to-video, video-generation, banana",
+  "recommendations": [
+    "Python continue de dominer - surveiller les frameworks émergents",
+    "Activité GitHub élevée - période favorable pour l'innovation"
+  ],
+  "trending_repos": [
+    {
+      "name": "llm-council",
+      "full_name": "karpathy/llm-council",
+      "description": "LLM Council works together to answer your hardest questions",
+      "url": "https://github.com/karpathy/llm-council",
+      "stars": 5515,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "moss",
+      "full_name": "hexagonal-sun/moss",
+      "description": "Rust Linux-compatible kernel",
+      "url": "https://github.com/hexagonal-sun/moss",
+      "stars": 748,
+      "language": "Rust",
+      "topics": []
+    },
+    {
+      "name": "HunyuanVideo-1.5",
+      "full_name": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "description": "HunyuanVideo-1.5: A leading lightweight video generation model",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "stars": 652,
+      "language": "Python",
+      "topics": [
+        "image-to-video",
+        "text-to-video",
+        "video-generation"
+      ]
+    },
+    {
+      "name": "banana-prompt-quicker",
+      "full_name": "glidea/banana-prompt-quicker",
+      "description": "🍌Awesome Prompts; Nano Banana；Banana Pro; Gemini；AI Studio；Prompt Quickly [目前商店版本 1.1.0 存在严重 bug，推荐先本地安装]",
+      "url": "https://github.com/glidea/banana-prompt-quicker",
+      "stars": 518,
+      "language": "JavaScript",
+      "topics": [
+        "banana",
+        "gemini",
+        "prompt"
+      ]
+    },
+    {
+      "name": "osgrep",
+      "full_name": "Ryandonofrio3/osgrep",
+      "description": "Open Source Semantic Search for your AI Agent",
+      "url": "https://github.com/Ryandonofrio3/osgrep",
+      "stars": 494,
+      "language": "TypeScript",
+      "topics": [
+        "colbert",
+        "embeddings",
+        "grep",
+        "grep-search"
+      ]
+    },
+    {
+      "name": "autonomous-researcher",
+      "full_name": "mshumer/autonomous-researcher",
+      "description": null,
+      "url": "https://github.com/mshumer/autonomous-researcher",
+      "stars": 404,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "claude-agent-server",
+      "full_name": "dzhng/claude-agent-server",
+      "description": "Run Claude Agent (Claude Code) in a sandbox, control it via websocket",
+      "url": "https://github.com/dzhng/claude-agent-server",
+      "stars": 397,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code"
+      ]
+    },
+    {
+      "name": "LPLB",
+      "full_name": "deepseek-ai/LPLB",
+      "description": "An early research stage MoE load balancer based on inear programming.",
+      "url": "https://github.com/deepseek-ai/LPLB",
+      "stars": 370,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "dembrandt",
+      "full_name": "thevangelist/dembrandt",
+      "description": "Extract any website’s design system into design tokens in a few seconds: logo, colors, typography, borders, and more. One command.",
+      "url": "https://github.com/thevangelist/dembrandt",
+      "stars": 347,
+      "language": "JavaScript",
+      "topics": [
+        "automation",
+        "cli",
+        "component-library",
+        "design",
+        "design-system",
+        "design-systems",
+        "design-tokens",
+        "developer-tools",
+        "figma",
+        "frontend",
+        "playwright",
+        "productivity",
+        "reverse-engineering",
+        "ui",
+        "web-automation",
+        "web-scraping"
+      ]
+    },
+    {
+      "name": "ExcaliDash",
+      "full_name": "ZimengXiong/ExcaliDash",
+      "description": "A self hosted dashboard and organizer for Excalidraw with live collaboration.",
+      "url": "https://github.com/ZimengXiong/ExcaliDash",
+      "stars": 344,
+      "language": "TypeScript",
+      "topics": [
+        "excalidash",
+        "excalidraw",
+        "excalidraw-platform",
+        "self-hosted",
+        "selfhosted",
+        "websocket"
+      ]
+    },
+    {
+      "name": "rep",
+      "full_name": "bscript/rep",
+      "description": "rep+ — Burp-style HTTP Repeater for Chrome DevTools with built‑in AI to explain requests and suggest attacks",
+      "url": "https://github.com/bscript/rep",
+      "stars": 316,
+      "language": "JavaScript",
+      "topics": []
+    },
+    {
+      "name": "micam",
+      "full_name": "miiot/micam",
+      "description": "🎦 Micam 是一个专为小米摄像头设计的 RTSP 桥接服务(非官方)，能够将小米摄像头的视频流本地转推到RTSP服务器，支持接入 HomeAssistant、Go2rtc、Frigate、Scrypted、Homekit 等多种NVR和智能家居系统。该项目采用 Docker Compose 快速部署方案，基于小米官方的Miloco，并集成Go2rtc实现RTSP流服务，无需GPU即可运行，使小米摄像头能与各类主流智能家居平台无缝集成。",
+      "url": "https://github.com/miiot/micam",
+      "stars": 297,
+      "language": "Python",
+      "topics": [
+        "camera",
+        "go2rtc",
+        "miloco",
+        "miot",
+        "rtsp",
+        "webcam",
+        "xiaomi"
+      ]
+    },
+    {
+      "name": "RoMaV2",
+      "full_name": "Parskatt/RoMaV2",
+      "description": null,
+      "url": "https://github.com/Parskatt/RoMaV2",
+      "stars": 280,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "twitter-account-location-in-username",
+      "full_name": "RhysSullivan/twitter-account-location-in-username",
+      "description": null,
+      "url": "https://github.com/RhysSullivan/twitter-account-location-in-username",
+      "stars": 245,
+      "language": "JavaScript",
+      "topics": []
+    },
+    {
+      "name": "server-survival",
+      "full_name": "pshenok/server-survival",
+      "description": "Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.",
+      "url": "https://github.com/pshenok/server-survival",
+      "stars": 225,
+      "language": "JavaScript",
+      "topics": [
+        "aws",
+        "cloud",
+        "devops",
+        "education",
+        "game",
+        "javascript",
+        "learning",
+        "open-source",
+        "simulation",
+        "threejs",
+        "tower-defense"
+      ]
+    },
+    {
+      "name": "RedInk",
+      "full_name": "HisMax/RedInk",
+      "description": "红墨 - 基于🍌Nano Banana Pro🍌 的一站式小红书图文生成器 《一句话一张图片生成小红书图文》",
+      "url": "https://github.com/HisMax/RedInk",
+      "stars": 193,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "onlymaps",
+      "full_name": "manoss96/onlymaps",
+      "description": "A Python micro-ORM",
+      "url": "https://github.com/manoss96/onlymaps",
+      "stars": 189,
+      "language": "Python",
+      "topics": [
+        "database",
+        "orm",
+        "python",
+        "sql"
+      ]
+    },
+    {
+      "name": "MiMo-Embodied",
+      "full_name": "XiaomiMiMo/MiMo-Embodied",
+      "description": "MiMo-Embodied",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Embodied",
+      "stars": 184,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "blueprint-mcp",
+      "full_name": "ArcadeAI/blueprint-mcp",
+      "description": "Diagram generation for understanding codebases and system architecture using Nano Banana Pro.",
+      "url": "https://github.com/ArcadeAI/blueprint-mcp",
+      "stars": 182,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "go-memory-visualizer",
+      "full_name": "1rhino2/go-memory-visualizer",
+      "description": "Real-time Go struct memory layout visualization and optimization for VS Code. Analyze padding, alignment, and cache performance with one-click field reordering.",
+      "url": "https://github.com/1rhino2/go-memory-visualizer",
+      "stars": 178,
+      "language": "TypeScript",
+      "topics": [
+        "cache-optimization",
+        "code-analysis",
+        "developer-tools",
+        "go-tools",
+        "golang",
+        "memory-optimization",
+        "memory-profiler",
+        "performance",
+        "struct-layout",
+        "vscode-extension"
+      ]
+    }
+  ],
+  "new_packages": [],
+  "tech_news": [
+    {
+      "title": "Cryptology firm cancels elections after losing encryption key",
+      "url": "https://www.bbc.com/news/articles/c62vl05rz0ko",
+      "description": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c62vl05rz0ko\">https://www.bbc.com/news/articles/c62vl05rz0ko</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46046626\">https://news.ycombinator.com/item?id=46046626</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "source": "Hacker News",
+      "date": "2025-11-25T15:24:59",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Launch HN: Onyx (YC W24) – The open-source chat UI",
+      "url": "https://news.ycombinator.com/item?id=46045987",
+      "description": "<p>Hey HN, Chris and Yuhong here from Onyx (<a href=\"https://github.com/onyx-dot-app/onyx\" rel=\"nofollow\">https://github.com/onyx-dot-app/onyx</a>). We’re building an open-source chat that works with any LLM (proprietary + open weight) <i>and</i> gives these LLMs the tools they need to be useful (RAG, web search, MCP, deep research, memory, etc.).<p>Demo: <a href=\"https://youtu.be/2g4BxTZ9ztg\" rel=\"nofollow\">https://youtu.be/2g4BxTZ9ztg</a><p>Two years ago, Yuhong and I had the same recurring pr",
+      "source": "Hacker News",
+      "date": "2025-11-25T14:20:30",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Apt Rust requirement raises questions",
+      "url": "https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/",
+      "description": "<p>Article URL: <a href=\"https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/\">https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46045972\">https://news.ycombinator.com/item?id=46045972</a></p>\n<p>Points: 76</p>\n<p># Comments: 62</p>",
+      "source": "Hacker News",
+      "date": "2025-11-25T14:18:01",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Brain has five 'eras' with adult mode not starting until early 30s",
+      "url": "https://www.theguardian.com/science/2025/nov/25/brain-human-cognitive-development-life-stages-cambridge-study",
+      "description": "<p>Article URL: <a href=\"https://www.theguardian.com/science/2025/nov/25/brain-human-cognitive-development-life-stages-cambridge-study\">https://www.theguardian.com/science/2025/nov/25/brain-human-cognitive-development-life-stages-cambridge-study</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46045661\">https://news.ycombinator.com/item?id=46045661</a></p>\n<p>Points: 63</p>\n<p># Comments: 50</p>",
+      "source": "Hacker News",
+      "date": "2025-11-25T13:38:12",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Making Crash Bandicoot (2011)",
+      "url": "https://all-things-andy-gavin.com/video-games/making-crash/",
+      "description": "<p>Article URL: <a href=\"https://all-things-andy-gavin.com/video-games/making-crash/\">https://all-things-andy-gavin.com/video-games/making-crash/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46045039\">https://news.ycombinator.com/item?id=46045039</a></p>\n<p>Points: 54</p>\n<p># Comments: 6</p>",
+      "source": "Hacker News",
+      "date": "2025-11-25T12:05:39",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Most Stable Raspberry Pi? Better NTP with Thermal Management",
+      "url": "https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/",
+      "description": "<p>Article URL: <a href=\"https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/\">https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46042946\">https://news.ycombinator.com/item?id=46042946</a></p>\n<p>Points: 216</p>\n<p># Comments: 71</p>",
+      "source": "Hacker News",
+      "date": "2025-11-25T06:35:59",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Human brains are preconfigured with instructions for understanding the world",
+      "url": "https://news.ucsc.edu/2025/11/sharf-preconfigured-brain/",
+      "description": "<p>Article URL: <a href=\"https://news.ucsc.edu/2025/11/sharf-preconfigured-brain/\">https://news.ucsc.edu/2025/11/sharf-preconfigured-brain/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46042928\">https://news.ycombinator.com/item?id=46042928</a></p>\n<p>Points: 242</p>\n<p># Comments: 157</p>",
+      "source": "Hacker News",
+      "date": "2025-11-25T06:31:31",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Windows GUI – Good, Bad and Pretty Ugly (2023)",
+      "url": "https://creolened.com/windows-gui-good-bad-and-pretty-ugly-ranked/",
+      "description": "<p>Article URL: <a href=\"https://creolened.com/windows-gui-good-bad-and-pretty-ugly-ranked/\">https://creolened.com/windows-gui-good-bad-and-pretty-ugly-ranked/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46042655\">https://news.ycombinator.com/item?id=46042655</a></p>\n<p>Points: 41</p>\n<p># Comments: 68</p>",
+      "source": "Hacker News",
+      "date": "2025-11-25T05:33:44",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Unpowered SSDs slowly lose data",
+      "url": "https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/",
+      "description": "<p>Article URL: <a href=\"https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/\">https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46038099\">https://news.ycombinator.com/item?id=46038099</a></p>\n<p>Points: 601</p>\n<p># Comments: 246</p>",
+      "source": "Hacker News",
+      "date": "2025-11-24T19:25:25",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "Claude Advanced Tool Use",
+      "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "description": "<p>Article URL: <a href=\"https://www.anthropic.com/engineering/advanced-tool-use\">https://www.anthropic.com/engineering/advanced-tool-use</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46038047\">https://news.ycombinator.com/item?id=46038047</a></p>\n<p>Points: 572</p>\n<p># Comments: 237</p>",
+      "source": "Hacker News",
+      "date": "2025-11-24T19:21:35",
+      "tags": [
+        "general",
+        "startup",
+        "programming"
+      ]
+    },
+    {
+      "title": "A significant Angular release",
+      "url": "https://javascriptweekly.com/issues/762",
+      "description": "<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n  <tr><td>\n  <div>    \n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr>\n<td align=\"left\"><p>#​762 — November 21, 2025</p></td>\n<td align=\"right\"><p><a href=\"https://javascriptweekly.com/link/177472/rss\" style=\"color: #3366aa;\">Read on the Web</a></p></td>\n</tr></table>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td></td></tr></table>\n    \n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td><p>JavaSc",
+      "source": "JavaScript Weekly",
+      "date": "2025-11-21T00:00:00",
+      "tags": [
+        "javascript",
+        "web-development"
+      ]
+    }
+  ]
+}

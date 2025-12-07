@@ -1,0 +1,58 @@
+2025-11-24 11:55:32,398 - __main__ - ERROR - Impossible d'importer les agents nécessaires
+2025-11-24 11:56:16,817 - __main__ - ERROR - Impossible d'importer les agents nécessaires
+2025-11-24 18:24:18,248 - __main__ - INFO - 🎯 Initialisation de la mission autonome 2h
+2025-11-24 18:24:18,266 - agents.task_splitter - INFO - Client Anthropic initialisé
+2025-11-24 18:24:18,277 - agents.task_splitter - INFO - Client OpenAI initialisé
+2025-11-24 18:24:18,277 - __main__ - INFO - 🚀 Démarrage de la mission 2h - Fin prévue: 2025-11-24 20:24:18.248829
+2025-11-24 18:24:18,277 - __main__ - INFO - 💾 Base de données LLM sauvegardée
+2025-11-24 18:24:18,277 - __main__ - INFO - 🔍 Démarrage de la veille technologique continue
+2025-11-24 18:24:19,030 - __main__ - INFO - ✅ Cycle de veille terminé - 9 points de données collectés
+2025-11-24 18:24:19,030 - __main__ - INFO - 📊 Démarrage de la génération de rapports périodiques
+2025-11-24 18:24:19,030 - __main__ - INFO - 🖥️ Démarrage du monitoring système
+2025-11-24 18:29:19,797 - __main__ - INFO - ✅ Cycle de veille terminé - 18 points de données collectés
+2025-11-24 18:34:20,506 - __main__ - INFO - ✅ Cycle de veille terminé - 27 points de données collectés
+2025-11-24 18:39:21,404 - __main__ - INFO - ✅ Cycle de veille terminé - 36 points de données collectés
+2025-11-24 18:44:22,099 - __main__ - INFO - ✅ Cycle de veille terminé - 45 points de données collectés
+2025-11-24 18:49:22,865 - __main__ - INFO - ✅ Cycle de veille terminé - 54 points de données collectés
+2025-11-24 18:54:19,073 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 18:54:19,073 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 18:54:19,073 - __main__ - ERROR - Erreur recherche web pour 'Swift programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 18:54:19,074 - __main__ - INFO - 📋 Rapport généré: reports/mission_report_20251124_185419.json
+2025-11-24 18:54:23,645 - __main__ - INFO - ✅ Cycle de veille terminé - 63 points de données collectés
+2025-11-24 18:59:24,459 - __main__ - INFO - ✅ Cycle de veille terminé - 72 points de données collectés
+2025-11-24 19:04:25,298 - __main__ - INFO - ✅ Cycle de veille terminé - 81 points de données collectés
+2025-11-24 19:09:26,113 - __main__ - INFO - ✅ Cycle de veille terminé - 90 points de données collectés
+2025-11-24 19:14:26,890 - __main__ - INFO - ✅ Cycle de veille terminé - 99 points de données collectés
+2025-11-24 19:19:27,713 - __main__ - INFO - ✅ Cycle de veille terminé - 108 points de données collectés
+2025-11-24 19:24:19,158 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 19:24:19,158 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 19:24:19,158 - __main__ - ERROR - Erreur recherche web pour 'Swift programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 19:24:19,158 - __main__ - INFO - 📋 Rapport généré: reports/mission_report_20251124_192419.json
+2025-11-24 19:24:28,366 - __main__ - INFO - ✅ Cycle de veille terminé - 117 points de données collectés
+2025-11-24 19:29:29,164 - __main__ - INFO - ✅ Cycle de veille terminé - 126 points de données collectés
+2025-11-24 19:34:29,953 - __main__ - INFO - ✅ Cycle de veille terminé - 135 points de données collectés
+2025-11-24 19:39:30,697 - __main__ - INFO - ✅ Cycle de veille terminé - 144 points de données collectés
+2025-11-24 19:44:31,488 - __main__ - INFO - ✅ Cycle de veille terminé - 153 points de données collectés
+2025-11-24 19:49:32,234 - __main__ - INFO - ✅ Cycle de veille terminé - 162 points de données collectés
+2025-11-24 19:54:19,183 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 19:54:19,183 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 19:54:19,183 - __main__ - ERROR - Erreur recherche web pour 'Swift programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 19:54:19,184 - __main__ - INFO - 📋 Rapport généré: reports/mission_report_20251124_195419.json
+2025-11-24 19:54:32,931 - __main__ - INFO - ✅ Cycle de veille terminé - 171 points de données collectés
+2025-11-24 19:59:33,772 - __main__ - INFO - ✅ Cycle de veille terminé - 180 points de données collectés
+2025-11-24 20:04:34,559 - __main__ - INFO - ✅ Cycle de veille terminé - 189 points de données collectés
+2025-11-24 20:09:35,500 - __main__ - INFO - ✅ Cycle de veille terminé - 198 points de données collectés
+2025-11-24 20:14:36,215 - __main__ - INFO - ✅ Cycle de veille terminé - 207 points de données collectés
+2025-11-24 20:19:37,075 - __main__ - INFO - ✅ Cycle de veille terminé - 216 points de données collectés
+2025-11-24 20:24:19,284 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 20:24:19,284 - __main__ - ERROR - Erreur recherche web pour 'Python programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 20:24:19,284 - __main__ - ERROR - Erreur recherche web pour 'Swift programming trends 2024': 'WebResearcher' object has no attribute 'search_and_extract'
+2025-11-24 20:24:19,284 - __main__ - INFO - 📋 Rapport généré: reports/mission_report_20251124_202419.json
+2025-11-24 20:24:37,091 - __main__ - INFO - 📋 Rapport final généré: reports/mission_final_report_20251124_202437.json
+2025-11-24 20:24:37,091 - __main__ - INFO - 🏁 Mission terminée après 2:00:18.842306
+2025-11-24 20:24:37,091 - __main__ - INFO - 📊 Statistiques finales:
+2025-11-24 20:24:37,091 - __main__ - INFO -    - Cycles de veille: 24
+2025-11-24 20:24:37,091 - __main__ - INFO -    - Tâches complétées: 0
+2025-11-24 20:24:37,091 - __main__ - INFO -    - Rapports générés: 4
+2025-11-24 20:24:37,091 - __main__ - INFO -    - Erreurs: 0
+2025-11-24 20:24:37,091 - __main__ - INFO -    - Points de données: 216

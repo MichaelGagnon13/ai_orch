@@ -1,0 +1,43 @@
+{
+  "mission": "Créer une API Flask minimale avec un endpoint /status retournant {\"status\": \"ok\"}",
+  "tasks": [
+    {
+      "id": 1,
+      "name": "initialiser_projet_flask",
+      "description": "Créer la structure minimale du projet, un environnement exécutable avec Flask et un point d'entrée app.py",
+      "prompt": "Tu es TaskBot, un assistant de développement. Ta mission est de créer la base d'une application Flask minimale.\n\nOBJECTIF:\nCréer une structure de projet basique pour une API Flask avec un point d'entrée app.py.\n\nCONTRAINTES:\n- Utiliser Python 3\n- Utiliser Flask (version générique, sans la fixer si ce n'est pas nécessaire)\n- L'application doit pouvoir être lancée avec: `python app.py`\n\nFICHIERS À CRÉER/MODIFIER:\n1) FILE: requirements.txt\nContenu attendu:\n- Ajouter Flask comme dépendance (une ligne simple `Flask` suffit)\n\n2) FILE: app.py\nContenu attendu:\n- Importer Flask depuis le module flask\n- Créer une instance de Flask nommée `app`\n- Ajouter un bloc `if __name__ == \"__main__\":` qui lance l'application avec `app.run(debug=True)` sur le port par défaut\n- Ne PAS encore définir d'endpoint /status ici. Ce sera fait dans une autre tâche.\n- Ajouter un commentaire TODO indiquant qu'un endpoint /status sera implémenté plus tard.\n\nCRITÈRES D'ACCEPTATION:\n- `python app.py` démarre un serveur Flask sans erreur (même s'il ne fournit encore aucun endpoint spécifique).\n- Le fichier requirements.txt contient au moins la dépendance Flask.\n\nNE FOURNIS QUE LES FICHIERS DEMANDÉS, AVEC LEUR CONTENU COMPLET.",
+      "depends_on": [],
+      "validation": "python app.py"
+    },
+    {
+      "id": 2,
+      "name": "implémenter_endpoint_status",
+      "description": "Ajouter à app.py un endpoint Flask GET /status retournant un JSON {\"status\": \"ok\"}",
+      "prompt": "Tu es TaskBot, un assistant de développement. Ta mission est d'ajouter un endpoint /status à une application Flask existante.\n\nCONTEXTE:\n- Le projet contient déjà un fichier app.py avec une application Flask `app` initialisée et un bloc `if __name__ == \"__main__\":` qui lance le serveur.\n- Tu dois modifier app.py pour ajouter un endpoint.\n\nOBJECTIF:\n- Implémenter un endpoint HTTP GET `/status` qui retourne un JSON: {\"status\": \"ok\"} avec le bon header Content-Type: application/json.\n\nINSTRUCTIONS DÉTAILLÉES:\n1) FILE: app.py\n- Importer `jsonify` depuis `flask` (si ce n'est pas déjà fait).\n- Définir une fonction Python nommée `get_status` décorée avec `@app.route(\"/status\", methods=[\"GET\"])`.\n- Dans cette fonction, retourner `jsonify({\"status\": \"ok\"})`.\n- S'assurer qu'aucun autre code n'est cassé; conserver la structure existante (initialisation de app et bloc main).\n\nCRITÈRES D'ACCEPTATION:\n- Un appel HTTP GET à http://127.0.0.1:5000/status retourne un JSON: {\"status\": \"ok\"} et un code HTTP 200.\n- Le header de réponse doit être `Content-Type: application/json` (ce qui est géré automatiquement par jsonify).\n\nFOURNIS LE FICHIER app.py COMPLET.",
+      "depends_on": [
+        1
+      ],
+      "validation": "python - << 'EOF'\nimport app\nfrom app import app as flask_app\nclient = flask_app.test_client()\nresp = client.get('/status')\nassert resp.status_code == 200\nassert resp.is_json\nassert resp.get_json() == {\"status\": \"ok\"}\nprint('OK')\nEOF"
+    },
+    {
+      "id": 3,
+      "name": "ajouter_tests_unitaires_status",
+      "description": "Créer un test unitaire pytest qui vérifie le fonctionnement de l'endpoint /status",
+      "prompt": "Tu es TaskBot, un assistant de développement. Ta mission est d'ajouter des tests unitaires pour l'endpoint /status de l'application Flask.\n\nCONTEXTE:\n- Le projet contient un fichier app.py avec une app Flask nommée `app` et un endpoint GET `/status` qui retourne {\"status\": \"ok\"}.\n- Nous voulons utiliser pytest pour tester cet endpoint.\n\nOBJECTIF:\n- Créer un fichier de tests pytest qui vérifie que l'endpoint `/status`:\n  - Retourne un code HTTP 200\n  - Retourne un JSON {\"status\": \"ok\"}\n  - A un Content-Type JSON\n\nFICHIERS À CRÉER/MODIFIER:\n1) FILE: test_status.py\nContenu attendu:\n- Importer pytest\n- Importer `app` depuis le module app (from app import app)\n- Créer une fixture pytest `client` qui utilise `app.test_client()` et fournit un client de test Flask.\n- Écrire une fonction de test `test_status_endpoint_ok` qui:\n  - Utilise le client pour faire `client.get('/status')`\n  - Vérifie que `resp.status_code == 200`\n  - Vérifie que `resp.is_json` est True\n  - Vérifie que `resp.get_json() == {\"status\": \"ok\"}`\n\n2) FILE: requirements.txt\n- Ajouter `pytest` comme dépendance sur une nouvelle ligne (sans supprimer Flask).\n\nCRITÈRES D'ACCEPTATION:\n- La commande `pytest` doit s'exécuter sans erreur et le test doit passer.\n\nFOURNIS LES FICHIERS demandés AVEC LEUR CONTENU COMPLET.",
+      "depends_on": [
+        2
+      ],
+      "validation": "pytest -q"
+    }
+  ],
+  "estimated_files": [
+    "app.py",
+    "requirements.txt",
+    "test_status.py"
+  ],
+  "risks": [
+    "Mauvaise importation ou nom de l'objet Flask app dans les tests",
+    "Conflits de version de Flask si un environnement global différent est utilisé",
+    "Serveur lancé au moment de l'import dans certains contextes si le bloc main est mal structuré"
+  ]
+}

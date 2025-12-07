@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "total_executions": 3,
+    "completed": 3,
+    "failed": 0,
+    "success_rate": 1.0,
+    "average_execution_time": 2.501899480819702,
+    "last_execution": "2025-11-22T17:12:48.908142"
+  },
+  "results": [
+    {
+      "agent_id": "01582f34-9aca-4394-a5d3-fff806d3e826",
+      "status":

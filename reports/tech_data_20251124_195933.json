@@ -1,0 +1,78 @@
+{
+  "github_trending": [
+    {
+      "name": "llm-council",
+      "full_name": "karpathy/llm-council",
+      "description": "LLM Council works together to answer your hardest questions",
+      "stars": 4207,
+      "language": "Python",
+      "url": "https://github.com/karpathy/llm-council"
+    },
+    {
+      "name": "reader3",
+      "full_name": "karpathy/reader3",
+      "description": "Quick illustration of how one can easily read books together with LLMs. It's great and I highly recommend it.",
+      "stars": 2078,
+      "language": "Python",
+      "url": "https://github.com/karpathy/reader3"
+    },
+    {
+      "name": "supertonic",
+      "full_name": "supertone-inc/supertonic",
+      "description": "Lightning-fast, on-device TTS \u2014 running natively via ONNX.",
+      "stars": 961,
+      "language": "Swift",
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "name": "Video-Materials-AutoGEN-Workstation",
+      "full_name": "Norsico/Video-Materials-AutoGEN-Workstation",
+      "description": "\u4e00\u4e2a\u96c6\u5185\u5bb9\u7b56\u5212\u3001AI\u6587\u6848\u81ea\u52a8\u751f\u6210\u3001TTS \u6279\u91cf\u81ea\u52a8\u914d\u97f3\u3001(AI)\u56fe\u7247\u7d20\u6750\u5408\u6210\u3001ASR\u81ea\u52a8\u63d0\u53d6\u8bed\u8a00\u5b57\u5e55\u811a\u672c\u3001AI\u81ea\u7531\u521b\u4f5c\u4e8e\u4e00\u4f53\u7684(\u77ed\u89c6\u9891)\u751f\u6210\u5de5\u4f5c\u7ad9\u3002\u65b9\u4fbf\u7ba1\u7406\u6bcf\u671f\u7684\u89c6\u9891\u9879\u76ee\u3002",
+      "stars": 737,
+      "language": "Python",
+      "url": "https://github.com/Norsico/Video-Materials-AutoGEN-Workstation"
+    },
+    {
+      "name": "moss",
+      "full_name": "hexagonal-sun/moss",
+      "description": "Rust Linux-compatible kernel",
+      "stars": 692,
+      "language": "Rust",
+      "url": "https://github.com/hexagonal-sun/moss"
+    }
+  ],
+  "pypi_updates": [
+    {
+      "name": "numpy",
+      "version": "2.3.5",
+      "summary": "Fundamental package for array computing in Python",
+      "release_date": "2025-11-16T22:49:19",
+      "home_page": null,
+      "author": "Travis E. Oliphant et al."
+    }
+  ],
+  "tech_news": [
+    {
+      "title": "AI and Machine Learning breakthrough in 2024",
+      "source": "TechNews",
+      "timestamp": "2025-11-24T19:59:33.771979",
+      "relevance": 0.8,
+      "category": "technology"
+    },
+    {
+      "title": "Python 3.12 new features and performance improvements",
+      "source": "TechNews",
+      "timestamp": "2025-11-24T19:59:33.771983",
+      "relevance": 0.8,
+      "category": "technology"
+    },
+    {
+      "title": "Cloud computing trends and serverless architecture",
+      "source": "TechNews",
+      "timestamp": "2025-11-24T19:59:33.771984",
+      "relevance": 0.8,
+      "category": "technology"
+    }
+  ],
+  "timestamp": "2025-11-24T19:59:33.003164"
+}

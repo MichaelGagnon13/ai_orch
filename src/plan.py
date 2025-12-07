@@ -1,12 +1,15 @@
-import json, pathlib
+import json
+import pathlib
+
 
 def load_plan(path="state/plan.json"):
     p = pathlib.Path(path)
     return json.loads(p.read_text())
 
+
 def iter_tasks(node):
     if isinstance(node, dict):
-        if node.get("id","").startswith("TASK-"):
+        if node.get("id", "").startswith("TASK-"):
             yield node
         for v in node.values():
             yield from iter_tasks(v)
@@ -14,11 +17,13 @@ def iter_tasks(node):
         for v in node:
             yield from iter_tasks(v)
 
+
 def next_open_task(plan):
     for t in iter_tasks(plan):
-        if t.get("status") not in ("done","blocked"):
+        if t.get("status") not in ("done", "blocked"):
             return t
     return None
+
 
 if __name__ == "__main__":
     plan = load_plan()

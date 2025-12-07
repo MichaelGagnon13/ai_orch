@@ -1,0 +1,77 @@
+[
+  {
+    "config_name": "claude-sonnet-4-20250514",
+    "model_type": "anthropic_chat",
+    "model_name": "claude-sonnet-4-20250514",
+    "api_key": "${ANTHROPIC_API_KEY}",
+    "organization": null,
+    "base_url": "https://api.anthropic.com",
+    "api_version": "2023-06-01",
+    "generate_args": {
+      "temperature": 0.7,
+      "max_tokens": 32000,
+      "top_p": 1.0,
+      "stream": false
+    },
+    "messages_key": "messages",
+    "budget": null
+  },
+  {
+    "config_name": "gpt-5.1",
+    "model_type": "openai_chat",
+    "model_name": "gpt-5.1",
+    "api_key": "${OPENAI_API_KEY}",
+    "organization": null,
+    "base_url": "https://api.openai.com/v1",
+    "api_version": null,
+    "generate_args": {
+      "temperature": 0.7,
+      "max_completion_tokens": 32000,
+      "top_p": 1.0,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "stream": false
+    },
+    "messages_key": "messages",
+    "budget": null
+  },
+  {
+    "config_name": "gpt-4o",
+    "model_type": "openai_chat",
+    "model_name": "gpt-4o",
+    "api_key": "${OPENAI_API_KEY}",
+    "organization": null,
+    "base_url": "https://api.openai.com/v1",
+    "api_version": null,
+    "generate_args": {
+      "temperature": 0.7,
+      "max_tokens": 16000,
+      "top_p": 1.0,
+      "frequency_penalty": 0.0,
+      "presence_penalty": 0.0,
+      "stream": false
+    },
+    "messages_key": "messages",
+    "budget": null
+  },
+  {
+    "config_name": "local-llm",
+    "model_type": "post_api_chat",
+    "model_name": "llama-3.1-8b",
+    "api_key": null,
+    "organization": null,
+    "base_url": "http://localhost:8000/v1/chat/completions",
+    "api_version": null,
+    "generate_args": {
+      "temperature": 0.7,
+      "max_tokens": 32000,
+      "top_p": 0.9,
+      "stream": false
+   },
+    "messages_key": "messages",
+    "budget": null,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+]

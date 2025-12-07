@@ -1,0 +1,1165 @@
+{
+  "mission_info": {
+    "start": "2025-11-25T15:40:25.136388",
+    "end": "2025-11-25T17:25:22.905652",
+    "duration": "1:44:57.768872",
+    "cycles": 82
+  },
+  "statistics": {
+    "discoveries": 164,
+    "analyses": 164,
+    "agents_created": 164,
+    "agents_validated": 0,
+    "success_rate": 0.0
+  },
+  "agents": [
+    {
+      "name": "agent_cycle_1",
+      "type": "monitoring",
+      "based_on": "agent_cycle_1",
+      "status": "created",
+      "cycle": 1
+    },
+    {
+      "name": "tracker_cycle_1",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_1",
+      "status": "created",
+      "cycle": 1
+    },
+    {
+      "name": "agent_cycle_2",
+      "type": "monitoring",
+      "based_on": "agent_cycle_2",
+      "status": "created",
+      "cycle": 2
+    },
+    {
+      "name": "tracker_cycle_2",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_2",
+      "status": "created",
+      "cycle": 2
+    },
+    {
+      "name": "agent_cycle_3",
+      "type": "monitoring",
+      "based_on": "agent_cycle_3",
+      "status": "created",
+      "cycle": 3
+    },
+    {
+      "name": "tracker_cycle_3",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_3",
+      "status": "created",
+      "cycle": 3
+    },
+    {
+      "name": "agent_cycle_4",
+      "type": "monitoring",
+      "based_on": "agent_cycle_4",
+      "status": "created",
+      "cycle": 4
+    },
+    {
+      "name": "tracker_cycle_4",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_4",
+      "status": "created",
+      "cycle": 4
+    },
+    {
+      "name": "agent_cycle_5",
+      "type": "monitoring",
+      "based_on": "agent_cycle_5",
+      "status": "created",
+      "cycle": 5
+    },
+    {
+      "name": "tracker_cycle_5",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_5",
+      "status": "created",
+      "cycle": 5
+    },
+    {
+      "name": "agent_cycle_6",
+      "type": "monitoring",
+      "based_on": "agent_cycle_6",
+      "status": "created",
+      "cycle": 6
+    },
+    {
+      "name": "tracker_cycle_6",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_6",
+      "status": "created",
+      "cycle": 6
+    },
+    {
+      "name": "agent_cycle_7",
+      "type": "monitoring",
+      "based_on": "agent_cycle_7",
+      "status": "created",
+      "cycle": 7
+    },
+    {
+      "name": "tracker_cycle_7",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_7",
+      "status": "created",
+      "cycle": 7
+    },
+    {
+      "name": "agent_cycle_8",
+      "type": "monitoring",
+      "based_on": "agent_cycle_8",
+      "status": "created",
+      "cycle": 8
+    },
+    {
+      "name": "tracker_cycle_8",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_8",
+      "status": "created",
+      "cycle": 8
+    },
+    {
+      "name": "agent_cycle_9",
+      "type": "monitoring",
+      "based_on": "agent_cycle_9",
+      "status": "created",
+      "cycle": 9
+    },
+    {
+      "name": "tracker_cycle_9",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_9",
+      "status": "created",
+      "cycle": 9
+    },
+    {
+      "name": "agent_cycle_10",
+      "type": "monitoring",
+      "based_on": "agent_cycle_10",
+      "status": "created",
+      "cycle": 10
+    },
+    {
+      "name": "tracker_cycle_10",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_10",
+      "status": "created",
+      "cycle": 10
+    },
+    {
+      "name": "agent_cycle_11",
+      "type": "monitoring",
+      "based_on": "agent_cycle_11",
+      "status": "created",
+      "cycle": 11
+    },
+    {
+      "name": "tracker_cycle_11",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_11",
+      "status": "created",
+      "cycle": 11
+    },
+    {
+      "name": "agent_cycle_12",
+      "type": "monitoring",
+      "based_on": "agent_cycle_12",
+      "status": "created",
+      "cycle": 12
+    },
+    {
+      "name": "tracker_cycle_12",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_12",
+      "status": "created",
+      "cycle": 12
+    },
+    {
+      "name": "agent_cycle_13",
+      "type": "monitoring",
+      "based_on": "agent_cycle_13",
+      "status": "created",
+      "cycle": 13
+    },
+    {
+      "name": "tracker_cycle_13",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_13",
+      "status": "created",
+      "cycle": 13
+    },
+    {
+      "name": "agent_cycle_14",
+      "type": "monitoring",
+      "based_on": "agent_cycle_14",
+      "status": "created",
+      "cycle": 14
+    },
+    {
+      "name": "tracker_cycle_14",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_14",
+      "status": "created",
+      "cycle": 14
+    },
+    {
+      "name": "agent_cycle_15",
+      "type": "monitoring",
+      "based_on": "agent_cycle_15",
+      "status": "created",
+      "cycle": 15
+    },
+    {
+      "name": "tracker_cycle_15",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_15",
+      "status": "created",
+      "cycle": 15
+    },
+    {
+      "name": "agent_cycle_16",
+      "type": "monitoring",
+      "based_on": "agent_cycle_16",
+      "status": "created",
+      "cycle": 16
+    },
+    {
+      "name": "tracker_cycle_16",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_16",
+      "status": "created",
+      "cycle": 16
+    },
+    {
+      "name": "agent_cycle_17",
+      "type": "monitoring",
+      "based_on": "agent_cycle_17",
+      "status": "created",
+      "cycle": 17
+    },
+    {
+      "name": "tracker_cycle_17",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_17",
+      "status": "created",
+      "cycle": 17
+    },
+    {
+      "name": "agent_cycle_18",
+      "type": "monitoring",
+      "based_on": "agent_cycle_18",
+      "status": "created",
+      "cycle": 18
+    },
+    {
+      "name": "tracker_cycle_18",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_18",
+      "status": "created",
+      "cycle": 18
+    },
+    {
+      "name": "agent_cycle_19",
+      "type": "monitoring",
+      "based_on": "agent_cycle_19",
+      "status": "created",
+      "cycle": 19
+    },
+    {
+      "name": "tracker_cycle_19",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_19",
+      "status": "created",
+      "cycle": 19
+    },
+    {
+      "name": "agent_cycle_20",
+      "type": "monitoring",
+      "based_on": "agent_cycle_20",
+      "status": "created",
+      "cycle": 20
+    },
+    {
+      "name": "tracker_cycle_20",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_20",
+      "status": "created",
+      "cycle": 20
+    },
+    {
+      "name": "agent_cycle_21",
+      "type": "monitoring",
+      "based_on": "agent_cycle_21",
+      "status": "created",
+      "cycle": 21
+    },
+    {
+      "name": "tracker_cycle_21",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_21",
+      "status": "created",
+      "cycle": 21
+    },
+    {
+      "name": "agent_cycle_22",
+      "type": "monitoring",
+      "based_on": "agent_cycle_22",
+      "status": "created",
+      "cycle": 22
+    },
+    {
+      "name": "tracker_cycle_22",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_22",
+      "status": "created",
+      "cycle": 22
+    },
+    {
+      "name": "agent_cycle_23",
+      "type": "monitoring",
+      "based_on": "agent_cycle_23",
+      "status": "created",
+      "cycle": 23
+    },
+    {
+      "name": "tracker_cycle_23",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_23",
+      "status": "created",
+      "cycle": 23
+    },
+    {
+      "name": "agent_cycle_24",
+      "type": "monitoring",
+      "based_on": "agent_cycle_24",
+      "status": "created",
+      "cycle": 24
+    },
+    {
+      "name": "tracker_cycle_24",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_24",
+      "status": "created",
+      "cycle": 24
+    },
+    {
+      "name": "agent_cycle_25",
+      "type": "monitoring",
+      "based_on": "agent_cycle_25",
+      "status": "created",
+      "cycle": 25
+    },
+    {
+      "name": "tracker_cycle_25",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_25",
+      "status": "created",
+      "cycle": 25
+    },
+    {
+      "name": "agent_cycle_26",
+      "type": "monitoring",
+      "based_on": "agent_cycle_26",
+      "status": "created",
+      "cycle": 26
+    },
+    {
+      "name": "tracker_cycle_26",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_26",
+      "status": "created",
+      "cycle": 26
+    },
+    {
+      "name": "agent_cycle_27",
+      "type": "monitoring",
+      "based_on": "agent_cycle_27",
+      "status": "created",
+      "cycle": 27
+    },
+    {
+      "name": "tracker_cycle_27",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_27",
+      "status": "created",
+      "cycle": 27
+    },
+    {
+      "name": "agent_cycle_28",
+      "type": "monitoring",
+      "based_on": "agent_cycle_28",
+      "status": "created",
+      "cycle": 28
+    },
+    {
+      "name": "tracker_cycle_28",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_28",
+      "status": "created",
+      "cycle": 28
+    },
+    {
+      "name": "agent_cycle_29",
+      "type": "monitoring",
+      "based_on": "agent_cycle_29",
+      "status": "created",
+      "cycle": 29
+    },
+    {
+      "name": "tracker_cycle_29",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_29",
+      "status": "created",
+      "cycle": 29
+    },
+    {
+      "name": "agent_cycle_30",
+      "type": "monitoring",
+      "based_on": "agent_cycle_30",
+      "status": "created",
+      "cycle": 30
+    },
+    {
+      "name": "tracker_cycle_30",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_30",
+      "status": "created",
+      "cycle": 30
+    },
+    {
+      "name": "agent_cycle_31",
+      "type": "monitoring",
+      "based_on": "agent_cycle_31",
+      "status": "created",
+      "cycle": 31
+    },
+    {
+      "name": "tracker_cycle_31",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_31",
+      "status": "created",
+      "cycle": 31
+    },
+    {
+      "name": "agent_cycle_32",
+      "type": "monitoring",
+      "based_on": "agent_cycle_32",
+      "status": "created",
+      "cycle": 32
+    },
+    {
+      "name": "tracker_cycle_32",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_32",
+      "status": "created",
+      "cycle": 32
+    },
+    {
+      "name": "agent_cycle_33",
+      "type": "monitoring",
+      "based_on": "agent_cycle_33",
+      "status": "created",
+      "cycle": 33
+    },
+    {
+      "name": "tracker_cycle_33",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_33",
+      "status": "created",
+      "cycle": 33
+    },
+    {
+      "name": "agent_cycle_34",
+      "type": "monitoring",
+      "based_on": "agent_cycle_34",
+      "status": "created",
+      "cycle": 34
+    },
+    {
+      "name": "tracker_cycle_34",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_34",
+      "status": "created",
+      "cycle": 34
+    },
+    {
+      "name": "agent_cycle_35",
+      "type": "monitoring",
+      "based_on": "agent_cycle_35",
+      "status": "created",
+      "cycle": 35
+    },
+    {
+      "name": "tracker_cycle_35",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_35",
+      "status": "created",
+      "cycle": 35
+    },
+    {
+      "name": "agent_cycle_36",
+      "type": "monitoring",
+      "based_on": "agent_cycle_36",
+      "status": "created",
+      "cycle": 36
+    },
+    {
+      "name": "tracker_cycle_36",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_36",
+      "status": "created",
+      "cycle": 36
+    },
+    {
+      "name": "agent_cycle_37",
+      "type": "monitoring",
+      "based_on": "agent_cycle_37",
+      "status": "created",
+      "cycle": 37
+    },
+    {
+      "name": "tracker_cycle_37",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_37",
+      "status": "created",
+      "cycle": 37
+    },
+    {
+      "name": "agent_cycle_38",
+      "type": "monitoring",
+      "based_on": "agent_cycle_38",
+      "status": "created",
+      "cycle": 38
+    },
+    {
+      "name": "tracker_cycle_38",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_38",
+      "status": "created",
+      "cycle": 38
+    },
+    {
+      "name": "agent_cycle_39",
+      "type": "monitoring",
+      "based_on": "agent_cycle_39",
+      "status": "created",
+      "cycle": 39
+    },
+    {
+      "name": "tracker_cycle_39",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_39",
+      "status": "created",
+      "cycle": 39
+    },
+    {
+      "name": "agent_cycle_40",
+      "type": "monitoring",
+      "based_on": "agent_cycle_40",
+      "status": "created",
+      "cycle": 40
+    },
+    {
+      "name": "tracker_cycle_40",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_40",
+      "status": "created",
+      "cycle": 40
+    },
+    {
+      "name": "agent_cycle_41",
+      "type": "monitoring",
+      "based_on": "agent_cycle_41",
+      "status": "created",
+      "cycle": 41
+    },
+    {
+      "name": "tracker_cycle_41",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_41",
+      "status": "created",
+      "cycle": 41
+    },
+    {
+      "name": "agent_cycle_42",
+      "type": "monitoring",
+      "based_on": "agent_cycle_42",
+      "status": "created",
+      "cycle": 42
+    },
+    {
+      "name": "tracker_cycle_42",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_42",
+      "status": "created",
+      "cycle": 42
+    },
+    {
+      "name": "agent_cycle_43",
+      "type": "monitoring",
+      "based_on": "agent_cycle_43",
+      "status": "created",
+      "cycle": 43
+    },
+    {
+      "name": "tracker_cycle_43",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_43",
+      "status": "created",
+      "cycle": 43
+    },
+    {
+      "name": "agent_cycle_44",
+      "type": "monitoring",
+      "based_on": "agent_cycle_44",
+      "status": "created",
+      "cycle": 44
+    },
+    {
+      "name": "tracker_cycle_44",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_44",
+      "status": "created",
+      "cycle": 44
+    },
+    {
+      "name": "agent_cycle_45",
+      "type": "monitoring",
+      "based_on": "agent_cycle_45",
+      "status": "created",
+      "cycle": 45
+    },
+    {
+      "name": "tracker_cycle_45",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_45",
+      "status": "created",
+      "cycle": 45
+    },
+    {
+      "name": "agent_cycle_46",
+      "type": "monitoring",
+      "based_on": "agent_cycle_46",
+      "status": "created",
+      "cycle": 46
+    },
+    {
+      "name": "tracker_cycle_46",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_46",
+      "status": "created",
+      "cycle": 46
+    },
+    {
+      "name": "agent_cycle_47",
+      "type": "monitoring",
+      "based_on": "agent_cycle_47",
+      "status": "created",
+      "cycle": 47
+    },
+    {
+      "name": "tracker_cycle_47",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_47",
+      "status": "created",
+      "cycle": 47
+    },
+    {
+      "name": "agent_cycle_48",
+      "type": "monitoring",
+      "based_on": "agent_cycle_48",
+      "status": "created",
+      "cycle": 48
+    },
+    {
+      "name": "tracker_cycle_48",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_48",
+      "status": "created",
+      "cycle": 48
+    },
+    {
+      "name": "agent_cycle_49",
+      "type": "monitoring",
+      "based_on": "agent_cycle_49",
+      "status": "created",
+      "cycle": 49
+    },
+    {
+      "name": "tracker_cycle_49",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_49",
+      "status": "created",
+      "cycle": 49
+    },
+    {
+      "name": "agent_cycle_50",
+      "type": "monitoring",
+      "based_on": "agent_cycle_50",
+      "status": "created",
+      "cycle": 50
+    },
+    {
+      "name": "tracker_cycle_50",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_50",
+      "status": "created",
+      "cycle": 50
+    },
+    {
+      "name": "agent_cycle_51",
+      "type": "monitoring",
+      "based_on": "agent_cycle_51",
+      "status": "created",
+      "cycle": 51
+    },
+    {
+      "name": "tracker_cycle_51",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_51",
+      "status": "created",
+      "cycle": 51
+    },
+    {
+      "name": "agent_cycle_52",
+      "type": "monitoring",
+      "based_on": "agent_cycle_52",
+      "status": "created",
+      "cycle": 52
+    },
+    {
+      "name": "tracker_cycle_52",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_52",
+      "status": "created",
+      "cycle": 52
+    },
+    {
+      "name": "agent_cycle_53",
+      "type": "monitoring",
+      "based_on": "agent_cycle_53",
+      "status": "created",
+      "cycle": 53
+    },
+    {
+      "name": "tracker_cycle_53",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_53",
+      "status": "created",
+      "cycle": 53
+    },
+    {
+      "name": "agent_cycle_54",
+      "type": "monitoring",
+      "based_on": "agent_cycle_54",
+      "status": "created",
+      "cycle": 54
+    },
+    {
+      "name": "tracker_cycle_54",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_54",
+      "status": "created",
+      "cycle": 54
+    },
+    {
+      "name": "agent_cycle_55",
+      "type": "monitoring",
+      "based_on": "agent_cycle_55",
+      "status": "created",
+      "cycle": 55
+    },
+    {
+      "name": "tracker_cycle_55",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_55",
+      "status": "created",
+      "cycle": 55
+    },
+    {
+      "name": "agent_cycle_56",
+      "type": "monitoring",
+      "based_on": "agent_cycle_56",
+      "status": "created",
+      "cycle": 56
+    },
+    {
+      "name": "tracker_cycle_56",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_56",
+      "status": "created",
+      "cycle": 56
+    },
+    {
+      "name": "agent_cycle_57",
+      "type": "monitoring",
+      "based_on": "agent_cycle_57",
+      "status": "created",
+      "cycle": 57
+    },
+    {
+      "name": "tracker_cycle_57",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_57",
+      "status": "created",
+      "cycle": 57
+    },
+    {
+      "name": "agent_cycle_58",
+      "type": "monitoring",
+      "based_on": "agent_cycle_58",
+      "status": "created",
+      "cycle": 58
+    },
+    {
+      "name": "tracker_cycle_58",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_58",
+      "status": "created",
+      "cycle": 58
+    },
+    {
+      "name": "agent_cycle_59",
+      "type": "monitoring",
+      "based_on": "agent_cycle_59",
+      "status": "created",
+      "cycle": 59
+    },
+    {
+      "name": "tracker_cycle_59",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_59",
+      "status": "created",
+      "cycle": 59
+    },
+    {
+      "name": "agent_cycle_60",
+      "type": "monitoring",
+      "based_on": "agent_cycle_60",
+      "status": "created",
+      "cycle": 60
+    },
+    {
+      "name": "tracker_cycle_60",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_60",
+      "status": "created",
+      "cycle": 60
+    },
+    {
+      "name": "agent_cycle_61",
+      "type": "monitoring",
+      "based_on": "agent_cycle_61",
+      "status": "created",
+      "cycle": 61
+    },
+    {
+      "name": "tracker_cycle_61",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_61",
+      "status": "created",
+      "cycle": 61
+    },
+    {
+      "name": "agent_cycle_62",
+      "type": "monitoring",
+      "based_on": "agent_cycle_62",
+      "status": "created",
+      "cycle": 62
+    },
+    {
+      "name": "tracker_cycle_62",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_62",
+      "status": "created",
+      "cycle": 62
+    },
+    {
+      "name": "agent_cycle_63",
+      "type": "monitoring",
+      "based_on": "agent_cycle_63",
+      "status": "created",
+      "cycle": 63
+    },
+    {
+      "name": "tracker_cycle_63",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_63",
+      "status": "created",
+      "cycle": 63
+    },
+    {
+      "name": "agent_cycle_64",
+      "type": "monitoring",
+      "based_on": "agent_cycle_64",
+      "status": "created",
+      "cycle": 64
+    },
+    {
+      "name": "tracker_cycle_64",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_64",
+      "status": "created",
+      "cycle": 64
+    },
+    {
+      "name": "agent_cycle_65",
+      "type": "monitoring",
+      "based_on": "agent_cycle_65",
+      "status": "created",
+      "cycle": 65
+    },
+    {
+      "name": "tracker_cycle_65",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_65",
+      "status": "created",
+      "cycle": 65
+    },
+    {
+      "name": "agent_cycle_66",
+      "type": "monitoring",
+      "based_on": "agent_cycle_66",
+      "status": "created",
+      "cycle": 66
+    },
+    {
+      "name": "tracker_cycle_66",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_66",
+      "status": "created",
+      "cycle": 66
+    },
+    {
+      "name": "agent_cycle_67",
+      "type": "monitoring",
+      "based_on": "agent_cycle_67",
+      "status": "created",
+      "cycle": 67
+    },
+    {
+      "name": "tracker_cycle_67",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_67",
+      "status": "created",
+      "cycle": 67
+    },
+    {
+      "name": "agent_cycle_68",
+      "type": "monitoring",
+      "based_on": "agent_cycle_68",
+      "status": "created",
+      "cycle": 68
+    },
+    {
+      "name": "tracker_cycle_68",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_68",
+      "status": "created",
+      "cycle": 68
+    },
+    {
+      "name": "agent_cycle_69",
+      "type": "monitoring",
+      "based_on": "agent_cycle_69",
+      "status": "created",
+      "cycle": 69
+    },
+    {
+      "name": "tracker_cycle_69",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_69",
+      "status": "created",
+      "cycle": 69
+    },
+    {
+      "name": "agent_cycle_70",
+      "type": "monitoring",
+      "based_on": "agent_cycle_70",
+      "status": "created",
+      "cycle": 70
+    },
+    {
+      "name": "tracker_cycle_70",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_70",
+      "status": "created",
+      "cycle": 70
+    },
+    {
+      "name": "agent_cycle_71",
+      "type": "monitoring",
+      "based_on": "agent_cycle_71",
+      "status": "created",
+      "cycle": 71
+    },
+    {
+      "name": "tracker_cycle_71",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_71",
+      "status": "created",
+      "cycle": 71
+    },
+    {
+      "name": "agent_cycle_72",
+      "type": "monitoring",
+      "based_on": "agent_cycle_72",
+      "status": "created",
+      "cycle": 72
+    },
+    {
+      "name": "tracker_cycle_72",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_72",
+      "status": "created",
+      "cycle": 72
+    },
+    {
+      "name": "agent_cycle_73",
+      "type": "monitoring",
+      "based_on": "agent_cycle_73",
+      "status": "created",
+      "cycle": 73
+    },
+    {
+      "name": "tracker_cycle_73",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_73",
+      "status": "created",
+      "cycle": 73
+    },
+    {
+      "name": "agent_cycle_74",
+      "type": "monitoring",
+      "based_on": "agent_cycle_74",
+      "status": "created",
+      "cycle": 74
+    },
+    {
+      "name": "tracker_cycle_74",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_74",
+      "status": "created",
+      "cycle": 74
+    },
+    {
+      "name": "agent_cycle_75",
+      "type": "monitoring",
+      "based_on": "agent_cycle_75",
+      "status": "created",
+      "cycle": 75
+    },
+    {
+      "name": "tracker_cycle_75",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_75",
+      "status": "created",
+      "cycle": 75
+    },
+    {
+      "name": "agent_cycle_76",
+      "type": "monitoring",
+      "based_on": "agent_cycle_76",
+      "status": "created",
+      "cycle": 76
+    },
+    {
+      "name": "tracker_cycle_76",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_76",
+      "status": "created",
+      "cycle": 76
+    },
+    {
+      "name": "agent_cycle_77",
+      "type": "monitoring",
+      "based_on": "agent_cycle_77",
+      "status": "created",
+      "cycle": 77
+    },
+    {
+      "name": "tracker_cycle_77",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_77",
+      "status": "created",
+      "cycle": 77
+    },
+    {
+      "name": "agent_cycle_78",
+      "type": "monitoring",
+      "based_on": "agent_cycle_78",
+      "status": "created",
+      "cycle": 78
+    },
+    {
+      "name": "tracker_cycle_78",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_78",
+      "status": "created",
+      "cycle": 78
+    },
+    {
+      "name": "agent_cycle_79",
+      "type": "monitoring",
+      "based_on": "agent_cycle_79",
+      "status": "created",
+      "cycle": 79
+    },
+    {
+      "name": "tracker_cycle_79",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_79",
+      "status": "created",
+      "cycle": 79
+    },
+    {
+      "name": "agent_cycle_80",
+      "type": "monitoring",
+      "based_on": "agent_cycle_80",
+      "status": "created",
+      "cycle": 80
+    },
+    {
+      "name": "tracker_cycle_80",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_80",
+      "status": "created",
+      "cycle": 80
+    },
+    {
+      "name": "agent_cycle_81",
+      "type": "monitoring",
+      "based_on": "agent_cycle_81",
+      "status": "created",
+      "cycle": 81
+    },
+    {
+      "name": "tracker_cycle_81",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_81",
+      "status": "created",
+      "cycle": 81
+    },
+    {
+      "name": "agent_cycle_82",
+      "type": "monitoring",
+      "based_on": "agent_cycle_82",
+      "status": "created",
+      "cycle": 82
+    },
+    {
+      "name": "tracker_cycle_82",
+      "type": "monitoring",
+      "based_on": "tracker_cycle_82",
+      "status": "created",
+      "cycle": 82
+    }
+  ]
+}

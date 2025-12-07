@@ -18,7 +18,7 @@
                 "cmd": "pytest -q -k test_sum_ok",
                 "expect_exit": 0
               },
-              "status": "done"
+              "status": "review_needed"
             }
           ]
         }

@@ -1,4 +1,6 @@
 # .pre-commit-config.yaml
+exclude: ^venv/|^\.venv/
+
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.7.3
